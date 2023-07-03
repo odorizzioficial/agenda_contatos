@@ -1,0 +1,80 @@
+body {
+  font-family: 'Bungee', cursive;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-50deg, #238bcc, #bfc4c5, #63bacd, #74cfba);
+  background-size: 400% 400%;
+  animation: animacao-fundo 10s ease infinite;
+}
+
+@keyframes animacao-fundo {
+  0% {
+    background-position: 50% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+table {
+  width: 40%;
+  margin: auto;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  background-color: #46c24c;
+  text-align: center;
+}
+
+th {
+  
+  background-color: #ffffff;
+  font-weight: bold;
+  vertical-align: middle;
+  
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+label {
+  font-weight: bold;
+  margin-left: 10px;
+
+}
+
+input[type="text"] {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+button {
+  font-family: 'Bungee', cursive;
+  padding: 7px 15px;
+  background-color: #46c24c;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+
+button:hover {
+  background-color: #0cde44;
+
+}
